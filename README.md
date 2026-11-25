@@ -51,6 +51,8 @@ HKCU\Software\Wine\AppDefaults\AION2.exe\DllOverrides
 Then run `./launch-aion2.sh`. Quit Steam inside CrossOver first — the shim
 only loads if Steam itself is started by the script. Don't launch the game
 through the `AION 2.app` shortcut CrossOver creates; that bypasses the shim.
+`--check` runs the preflight checks without launching, `--diag` writes shim
+fault logs to `~/.aion2fix/diag/`.
 
 ## Notes
 
